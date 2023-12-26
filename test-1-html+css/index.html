@@ -4,6 +4,105 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Test 1 - HTML+CSS</title>
+        <link rel="stylesheet" href="./styles.css" />
     </head>
-    <body></body>
+    <body>
+        <main class="container">
+            <section class="main-text">
+                <h1>Hello World</h1>
+                <p>Always ready to meet with you.</p>
+            </section>
+            <section class="main-section">
+                <picture>
+                    <source media="(max-width: 768px)" srcset="assets/map-mobile.png" />
+                    <source media="(min-width: 769px)" srcset="assets/map-desktop.png" />
+                    <img src="assets/map-mobile.png" class="map-image" alt="map" />
+                </picture>
+                <div class="cards">
+                    <div class="first-row">
+                        <div class="card card-1">
+                            <div class="card-title">
+                                <h3>Damietta</h3>
+                                <img src="assets/egypt.svg" alt="egypt flag" width="40" height="40" loading="lazy" />
+                            </div>
+                            <div class="card-contact">
+                                <p>
+                                    +20 0219033
+                                    <br />
+                                    alexbank@damietta.com
+                                </p>
+                            </div>
+                            <div class="card-address">
+                                3 Al Togari, Qism Damietta, Damietta, Damietta Governorate 34511, Egypt
+                            </div>
+                        </div>
+                        <div class="card card-3">
+                            <div class="card-title">
+                                <h3>Lille</h3>
+                                <img src="assets/france.svg" alt="egypt flag" width="40" height="40" loading="lazy" />
+                            </div>
+                            <div class="card-contact">
+                                <p>
+                                    +33 3 20 54 44 50
+                                    <br />
+                                    theatre-sebastobol@lille.fr
+                                </p>
+                            </div>
+                            <div class="card-address">Pl. Sébastopol, 59000 Lille, France</div>
+                        </div>
+                    </div>
+                    <div class="second-row">
+                        <div class="card card-2">
+                            <div class="card-title">
+                                <h3>Dayton</h3>
+                                <img src="assets/usa.svg" alt="egypt flag" width="40" height="40" loading="lazy" />
+                            </div>
+                            <div class="card-contact">
+                                <p>
+                                    +1 937 226 1710
+                                    <br />
+                                    info@americaspackardmuseum.org
+                                </p>
+                            </div>
+                            <div class="card-address">420 S Ludlow St, Dayton, OH 45402, United States</div>
+                        </div>
+                        <div class="card card-4">
+                            <div class="card-title">
+                                <h3>Kulusuk</h3>
+                                <img
+                                    src="assets/greenland.svg"
+                                    alt="egypt flag"
+                                    width="40"
+                                    height="40"
+                                    loading="lazy"
+                                />
+                            </div>
+                            <div class="card-contact">
+                                <p>
+                                    +299 98 69 88
+                                    <br />
+                                    info@mit.gl
+                                </p>
+                            </div>
+                            <div class="card-address">HVF8+R82, Kulusuk, Greenland</div>
+                        </div>
+                        <div class="card card-5">
+                            <div class="card-title">
+                                <h3>Kanazawa</h3>
+                                <img src="assets/japan.svg" alt="egypt flag" width="40" height="40" loading="lazy" />
+                            </div>
+                            <div class="card-contact">
+                                <p>
+                                    +81 76 220 2469
+                                    <br />
+                                    kanazawa@lg.jp
+                                </p>
+                            </div>
+                            <div class="card-address">1 Chome Higashiyama, Kanazawa, Ishikawa 920-0831, Japan</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
 </html>
